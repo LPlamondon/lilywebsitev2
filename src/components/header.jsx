@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <React.Fragment>
         <div class="logo">
-          <img class="rounded-circle mx-auto" alt="logo" src={logo} />
+          <img class="rounded-circle mx-auto" id = "lily-logo" alt="logo" src={logo} />
         </div>
         <div class="content">
           <div class="inner">
