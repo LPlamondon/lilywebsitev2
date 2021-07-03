@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import logo from '../images/Lily_Logo.png';
 
 class Header extends Component {
   render(){
     return (
       <React.Fragment>
         <div class="logo">
-          <img class="rounded-circle mx-auto" alt="logo" src="../images/Lily_Logo.png" />
+          <img class="rounded-circle mx-auto" alt="logo" src={logo} />
         </div>
         <div class="content">
           <div class="inner">
