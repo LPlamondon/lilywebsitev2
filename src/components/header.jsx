@@ -22,7 +22,7 @@ class Header extends Component {
           </ul>
         </nav>
       </React.Fragment>
-  );
+    );
   }
 }
 
