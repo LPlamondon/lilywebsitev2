@@ -4,7 +4,7 @@ class Header extends Component {
   render(){
     <React.Fragment>
       <div class="logo">
-        <img class="rounded-circle mx-auto" alt="logo" src="" />
+        <img class="rounded-circle mx-auto" alt="logo" src="../images/Lily_Logo.png" />
       </div>
       <div class="content">
         <div class="inner">
