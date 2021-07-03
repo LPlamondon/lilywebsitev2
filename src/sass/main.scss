@@ -1,0 +1,48 @@
+
+
+
+
+ul {
+	list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+#headroot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+  #headroot .logo {
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    border: solid 1px white;
+    border-radius: 100%;
+  }
+
+  #headroot .content {
+    border: solid white;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    max-width: 100%;
+  }
+
+    #header .content .inner {
+      padding: 3rem 2rem;
+      max-height: 40rem;
+      overflow: hidden;
+    }
+
+    #header .content p {
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+      font-size: 0.8rem;
+      line-height: 2;
+    }
+  /* End of Header */
