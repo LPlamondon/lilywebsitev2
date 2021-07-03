@@ -10,7 +10,7 @@ class Header extends Component {
         <div class="content">
           <div class="inner">
             <h1>Lily Plamondon</h1>
-            <p>A website created to showcase my porfolio using React and basing the look off a template from <a href="https://html5up.net">HTML5 UP</a>, but made to be my own.</p>
+            <p>A website created to showcase my porfolio and experience. This website was created using React!</p>
           </div>
         </div>
         <nav>
