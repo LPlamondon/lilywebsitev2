@@ -7,28 +7,28 @@
   align-items: center;
   text-align: center;
   background-color: blue;
+	$borderSize: 2px;
 
   > * {
     position: relative;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
-  > *:before {
+  > nav:before {
     content: '';
     display: block;
     position: absolute;
-    top: calc(-3.5rem - 1px);
-    left: calc(50% - 1px);
-    width: 2px;
-    height: calc(3.5rem + 1px);
+    top: calc(-2rem);
+    left: calc(50% - 2.5px);
+    width: $borderSize;
+    height: calc(2rem + 1px);
     background: #ffffff;
   }
 
   #lily-logo {
     width: 8rem;
     height: 8rem;
-    line-height: 6rem;
-    border: solid 2px white;
+    border: solid 2*$borderSize white;
     border-radius: 100%;
   }
 
@@ -38,25 +38,24 @@
 			list-style: none;
 			padding-left: 0;
 			margin-bottom: 0;
-			border: solid 2px white;
+			border: solid $borderSize white;
 			border-radius: 5px;
 			li {
-				padding-left: 0;
-		    border-left: solid 1px white;
+		    border-left: solid $borderSize white;
 
 				&:first-child {
 					border-left: 0;
 				}
 
 					a{
+						font-size: 12pt;
 						display: block;
 			      min-width: 7.5rem;
 			      height: 2.75rem;
 			      line-height: 2.75rem;
-			      padding: 0 1.25rem 0 1.45rem;
+			      padding: 0 1.5rem 0;
 			      text-transform: uppercase;
 			      letter-spacing: 0.2rem;
-			      font-size: 12pt;
 			      border-bottom: 0;
 					}
 			}
