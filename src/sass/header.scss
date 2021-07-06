@@ -41,41 +41,21 @@ ul {
     border-radius: 100%;
   }
 
-  .content {
-    border: solid white;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    max-width: 100%;
+  nav ul li {
+    padding-left: 0;
+    border-left: solid 1px white;
   }
 
-    .content .inner {
-      padding: 3rem 2rem;
-      max-height: 40rem;
-      overflow: hidden;
-    }
-
-    .content p {
+    nav ul li a {
+      display: block;
+      min-width: 7.5rem;
+      height: 2.75rem;
+      line-height: 2.75rem;
+      padding: 0 1.25rem 0 1.45rem;
       text-transform: uppercase;
       letter-spacing: 0.2rem;
       font-size: 0.8rem;
-      line-height: 2;
+      border-bottom: 0;
     }
-
-    nav ul li {
-      padding-left: 0;
-      border-left: solid 1px white;
-    }
-
-      nav ul li a {
-        display: block;
-        min-width: 7.5rem;
-        height: 2.75rem;
-        line-height: 2.75rem;
-        padding: 0 1.25rem 0 1.45rem;
-        text-transform: uppercase;
-        letter-spacing: 0.2rem;
-        font-size: 0.8rem;
-        border-bottom: 0;
-      }
 }
   /* End of Header */
