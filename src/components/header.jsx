@@ -8,12 +8,6 @@ class Header extends Component {
         <div class="logo">
           <img class="rounded-circle mx-auto" id = "lily-logo" alt="logo" src={logo} />
         </div>
-        <div class="content">
-          <div class="inner">
-            <h1>Lily Plamondon</h1>
-            <p>A website created to showcase my porfolio and experience. This website was created using React!</p>
-          </div>
-        </div>
         <nav>
           <ul>
             <li><a href="#intro">Intro</a></li>
