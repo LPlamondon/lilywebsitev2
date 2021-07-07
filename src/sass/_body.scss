@@ -10,17 +10,6 @@
     margin-top: 4rem;
   }
 
-  > *:before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: calc(-3.5rem - 1px);
-    left: calc(50% - 1px);
-    width: 2px;
-    height: calc(3.5rem + 1px);
-    background: #ffffff;
-  }
-
   .content {
     border: solid white;
     border-top-width: 1px;
