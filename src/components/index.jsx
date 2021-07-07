@@ -7,7 +7,8 @@ class Index extends Component {
         <div class="content">
           <div class="inner">
             <h1>Lily Plamondon</h1>
-            <p>A website created to showcase my porfolio and experience. This website was created using React!</p>
+            <p>A website created to showcase my porfolio and experience.</p>
+            <p>This website was created using React!</p>
           </div>
         </div>
       </React.Fragment>
