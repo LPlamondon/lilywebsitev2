@@ -5,12 +5,9 @@
   align-items: center;
   text-align: center;
 
-  > * {
+  .content {
     position: relative;
     margin-top: 4rem;
-  }
-
-  .content {
     border: solid white;
     border-top-width: 1px;
     border-bottom-width: 1px;
