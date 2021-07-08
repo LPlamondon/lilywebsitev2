@@ -11,18 +11,18 @@
     border: solid white 2px;
     max-width: 100%;
     width: 40rem;
-  }
 
-    .content .inner {
+    .inner {
       padding: 3rem 2rem;
       max-height: 40rem;
       overflow: hidden;
-    }
 
-    .content p {
-      text-transform: uppercase;
-      letter-spacing: 0.2rem;
-      font-size: 0.8rem;
-      line-height: 2;
+      p {
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 0.8rem;
+        line-height: 2;
+      }
     }
+  }
 }
