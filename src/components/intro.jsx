@@ -4,7 +4,7 @@ class Intro extends Component {
   render(){
     return (
       <React.Fragment>
-        <div class="pages">
+        <div class="pages rounded">
           <div class="pageContent">
             <h2>Intro</h2>
             <img src = ""/>
@@ -23,16 +23,18 @@ class Intro extends Component {
             <p>
               I know HTML5, CSS, and Javascript. For web development frameworks, I also have experience with SASS, React, Ruby on Rails, Bootstrap, and Node.js.
               Besides web development, I am familiar with Python, C, C++, and Java. I also have some experience with Unity and C#.
-
-              Besides programming languages and frameworks, I've also learned how to work in a team, communication, UI design, and mediation skills.
+            </p>
+            <p>
+            Besides programming languages and frameworks, I've also learned how to work in a team, communication, UI design, and mediation skills.
             </p>
             <h4>Anything else interesting about you?</h4>
             <p>
             I have a twin brother named Thomas, who's only about 2-3 minutes older than me. Growing up with a sibling I could always depend on and get along with has been
             an amazing experience, and I love him dearly.
-
+            </p>
+            <p>
             I also have dual citizenship, Canadian and Swiss. This is due to my mom coming from Switzerland, giving me Swiss citzenship by blood. I can speak a minor amount of
-            German, although my Japanese is far better. 
+            German, although my Japanese is far better.
             </p>
           </div>
         </div>
