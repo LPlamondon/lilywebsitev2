@@ -7,8 +7,8 @@ class Work extends Component {
         <div class="pages rounded">
           <div class="pageContent">
             <h2>Work</h2>
-            <img src = ""/>
-            <p>My github can be found <a href="https://github.com/LPlamondon">, while you can download my resume [HERE]</p>
+            <img src = "" />
+            <p>My github can be found <a href="https://github.com/LPlamondon">here</a>, while you can download my resume [HERE]</p>
             <h4>2021</h4>
               <ul>
                 <li><a href="https://www.vancouverdatajam.ca/">Vancouver Datjam - Currently working as a volunteer web developer</a></li>
