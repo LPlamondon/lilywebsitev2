@@ -25,4 +25,22 @@
       }
     }
   }
+
+  .pages {
+    position: relative;
+    margin-top: 4rem;
+    max-width: 100%;
+    width: 40rem;
+    background-color: rgba(30, 30, 30, 0.85);
+
+    .pageContent{
+      padding: 3rem 2rem;
+
+      p{
+        letter-spacing: 0.05rem;
+        font-size: 0.8rem;
+        line-height: 1.6;
+      }
+    }
+  }
 }
