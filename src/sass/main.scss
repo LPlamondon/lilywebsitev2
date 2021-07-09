@@ -1,13 +1,14 @@
 
 html {
   font-size: 16pt;
+  min-height: 100%;
 }
 
 body {
-  background-image: url('../images/Background.jpg');
+  color: white;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/Background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
 }
 
 @import 'header.scss';
