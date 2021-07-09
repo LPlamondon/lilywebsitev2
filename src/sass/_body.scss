@@ -17,11 +17,24 @@
       max-height: 40rem;
       overflow: hidden;
 
+      h1 {
+        text-shadow:
+		      -1px -1px 0 #000,
+		       1px -1px 0 #000,
+		      -1px 1px 0 #000,
+		       1px 1px 0 #000;
+      }
+
       p {
         text-transform: uppercase;
         letter-spacing: 0.2rem;
         font-size: 0.8rem;
         line-height: 2;
+        text-shadow:
+		      -1px -1px 0 #000,
+		       1px -1px 0 #000,
+		      -1px 1px 0 #000,
+		       1px 1px 0 #000;
       }
     }
   }
@@ -67,6 +80,10 @@
         letter-spacing: 0.05rem;
         font-size: 0.8rem;
         line-height: 1.6;
+      }
+
+      img {
+        max-width: 60%;
       }
     }
   }
