@@ -6,10 +6,10 @@ class About extends Component {
       <React.Fragment>
         <div class="pages rounded">
           <div class="pageContent">
-            <h2>Intro</h2>
+            <h2>About</h2>
             <img src = "" />
             <p>
-              This website was built using React and Bootstrap, and hosted on AWS. 
+              This website was built using React and Bootstrap, and hosted on AWS.
             </p>
           </div>
         </div>
