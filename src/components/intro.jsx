@@ -7,7 +7,7 @@ class Intro extends Component {
         <div class="pages rounded">
           <div class="pageContent">
             <h2>Intro</h2>
-            <img src = ""/>
+            <img src="" alt="" />
             <h6>Who am I?</h6>
             <p>
               My name is Lily Plamondon. I went to Simon Fraser University, and graduated back in 2019. I currently live in the Greater Vancouver area.

@@ -7,7 +7,7 @@ class Work extends Component {
         <div class="pages rounded text-start">
           <div class="pageContent">
             <h2>Work</h2>
-            <img src = "" />
+            <img src="" alt="" />
             <p>My github can be found <a href="https://github.com/LPlamondon">here</a>, while you can download my resume [HERE]</p>
             <h6>2021</h6>
               <ul>

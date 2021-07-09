@@ -7,7 +7,7 @@ class About extends Component {
         <div class="pages rounded">
           <div class="pageContent">
             <h2>About</h2>
-            <img src = "" />
+            <img src="" alt="" />
             <p>
               This website was built using React and Bootstrap, and hosted on AWS.
             </p>
