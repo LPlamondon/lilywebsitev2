@@ -4,7 +4,7 @@ import logo from '../images/Lily_Logo.png';
 class Header extends Component {
   render(){
     return (
-      <React.Fragment>
+      <header>
         <div class="logo">
           <img class="rounded-circle mx-auto" id = "lily-logo" alt="logo" src={logo} />
         </div>
@@ -16,7 +16,7 @@ class Header extends Component {
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
-      </React.Fragment>
+      </header>
     );
   }
 }
