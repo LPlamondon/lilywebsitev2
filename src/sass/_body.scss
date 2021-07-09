@@ -68,10 +68,15 @@
         line-height: 1.6;
       }
 
-      img {
-        max-width: 100%;
-        display: block;
+      div {
+        overflow: hidden;
+        height: 10rem;
         margin: 1rem auto 2rem auto;
+        img {
+          max-width: 100%;
+          display: block;
+          margin: auto;
+        }
       }
     }
   }
