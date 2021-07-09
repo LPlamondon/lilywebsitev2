@@ -4,7 +4,7 @@ class Work extends Component {
   render(){
     return (
       <React.Fragment>
-        <div class="pages rounded">
+        <div class="pages rounded text-start">
           <div class="pageContent">
             <h2>Work</h2>
             <img src = "" />
