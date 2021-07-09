@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import image from '../images/About.jpg';
 
 class About extends Component {
   render(){
@@ -7,7 +8,7 @@ class About extends Component {
         <div class="pages rounded">
           <div class="pageContent">
             <h2>About</h2>
-            <img src="" alt="" />
+            <div><img src={image} alt="" /></div>
             <p>
               This website was built using React and Bootstrap, and hosted on AWS.
             </p>
