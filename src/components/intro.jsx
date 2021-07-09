@@ -8,7 +8,7 @@ class Intro extends Component {
           <div class="pageContent">
             <h2>Intro</h2>
             <img src = ""/>
-            <h4>Who am I?</h4>
+            <h6>Who am I?</h6>
             <p>
               My name is Lily Plamondon. I went to Simon Fraser University, and graduated back in 2019. I currently live in the Greater Vancouver area.
               I speak both English and Japanese, the first one being my native langauge while the latter I learned in university.
@@ -23,7 +23,7 @@ class Intro extends Component {
               I also play a Dark Heresey 2 TTRPG homebrew with a group of online friends, where I have experience both as a player and as a gamemaster. This has been a very valuable
               experience for me to improve my creativity, as well as improving my communication skills.
             </p>
-            <h4>What skills do I have?</h4>
+            <h6>What skills do I have?</h6>
             <p>
               I know HTML5, CSS, and Javascript. For web development frameworks, I also have experience with SASS, React, Ruby on Rails, Bootstrap, and Node.js.
               Besides web development, I am familiar with Python, C, C++, and Java. I also have some experience with Unity and C#.
@@ -31,7 +31,7 @@ class Intro extends Component {
             <p>
               Besides programming languages and frameworks, I've also learned how to work in a team, communication, UI design, and mediation skills.
             </p>
-            <h4>Anything else interesting about you?</h4>
+            <h6>Anything else interesting about you?</h6>
             <p>
               I have a twin brother named Thomas, who's only about 2-3 minutes older than me. Growing up with a sibling I could always depend on and get along with has been
               an amazing experience, and I love him dearly.
