@@ -32,11 +32,32 @@
     max-width: 100%;
     width: 40rem;
     background-color: rgba(30, 30, 30, 0.85);
+    align-items: left;
+    text-align: left;
 
-    .pageContent{
+    .pageContent {
       padding: 3rem 2rem;
 
-      p{
+      h6 {
+        letter-spacing: 0.05rem;
+        line-height: 1.6;
+      }
+
+      p {
+        letter-spacing: 0.05rem;
+        font-size: 0.8rem;
+        line-height: 1.6;
+      }
+
+      a {
+        letter-spacing: 0.05rem;
+        font-size: 0.8rem;
+        line-height: 1.6;
+        text-decoration: dotted;
+        color: white;
+      }
+
+      li {
         letter-spacing: 0.05rem;
         font-size: 0.8rem;
         line-height: 1.6;
