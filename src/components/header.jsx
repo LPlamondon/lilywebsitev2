@@ -1,10 +1,4 @@
 import React, { Component } from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 import logo from '../images/Lily_Logo.png';
 
 class Header extends Component {
@@ -14,17 +8,15 @@ class Header extends Component {
         <div class="logo">
           <img class="rounded-circle mx-auto" id = "lily-logo" alt="logo" src={logo} />
         </div>
-        <Router>
         <nav>
           <ul>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/intro'>Intro</Link></li>
-            <li><Link to='/work'>Work</Link></li>
-            <li><Link to='/about'>About</Link></li>
-            <li><Link to='/contact'>Contact</Link></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/intro">Intro</a></li>
+            <li><a href="/work">Work</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </nav>
-        </Router>
       </header>
     );
   }
