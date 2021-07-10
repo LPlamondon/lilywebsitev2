@@ -12,6 +12,9 @@ class About extends Component {
             <p>
               This website was built using React and Bootstrap, and hosted on AWS.
             </p>
+            <p>
+              The GitHub repository for the website can be found <a href="https://github.com/LPlamondon/lilywebsitev2">here.</a>
+            </p>
           </div>
         </div>
       </React.Fragment>
