@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import image from '../images/Work.jpg';
+import resume from '../files/Plamondon_Lily_Resume.pdf';
 
 class Work extends Component {
   render(){
@@ -9,7 +10,7 @@ class Work extends Component {
           <div class="pageContent">
             <h2>Work</h2>
             <div><img src={image} alt="" /></div>
-            <p>My github can be found <a href="https://github.com/LPlamondon">here</a>, while you can download my resume [HERE]</p>
+            <p>My github can be found <a href="https://github.com/LPlamondon">here</a>, while you can download my resume <a href={resume} download>here</a></p>
             <h6>2021</h6>
               <ul>
                 <li><a href="https://www.vancouverdatajam.ca/">Vancouver Datjam - Currently working as a volunteer web developer</a></li>
