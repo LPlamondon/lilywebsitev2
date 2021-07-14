@@ -8,13 +8,13 @@ class Header extends Component {
         <div class="logo">
           <img class="rounded-circle mx-auto" id = "lily-logo" alt="logo" src={logo} />
         </div>
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/intro">Intro</a></li>
-            <li><a href="/work">Work</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
+        <nav class="container">
+          <ul class="row">
+            <li class="col"><a href="/">Home</a></li>
+            <li class="col"><a href="/intro">Intro</a></li>
+            <li class="col"><a href="/work">Work</a></li>
+            <li class="col"><a href="/about">About</a></li> 
+            <li class="col"><a href="/contact">Contact</a></li>
           </ul>
         </nav>
       </header>
