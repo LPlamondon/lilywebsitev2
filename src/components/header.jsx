@@ -13,7 +13,7 @@ class Header extends Component {
             <li class="col"><a href="/">Home</a></li>
             <li class="col"><a href="/intro">Intro</a></li>
             <li class="col"><a href="/work">Work</a></li>
-            <li class="col"><a href="/about">About</a></li> 
+            <li class="col"><a href="/about">About</a></li>
             <li class="col"><a href="/contact">Contact</a></li>
           </ul>
         </nav>
