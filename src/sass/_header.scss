@@ -33,19 +33,15 @@ header {
 
 	nav {
 		ul {
-			display: flex;
 			list-style: none;
-			padding-left: 0;
+			padding: 0;
 			margin-bottom: 0;
 			border: solid $borderSize white;
-			border-radius: 5px;
+      border-bottom: none;
+      border-left: none;
 			li {
 		    border-left: solid $borderSize white;
-
-				&:first-child {
-					border-left: 0;
-				}
-
+        border-bottom: solid $borderSize white;
 					a {
 						font-size: 12pt;
 						display: block;
